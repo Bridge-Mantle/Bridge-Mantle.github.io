@@ -1,0 +1,19 @@
+{
+  "name": "Mantle Bridge",
+  "short_name": "Mantle Bridge",
+  "description": "How Mantle Bridge works: deposits, withdrawals, ZK proof finalization, gas on both chains, fees, and the checks to run before you sign. Independent reference dashboard.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
