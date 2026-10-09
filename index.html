@@ -16,7 +16,7 @@
 <meta name="twitter:description" content="Use the Mantle Bridge to bring ETH, USDC and tokens onto Mantle, a modular L2 with its own data-availability layer and MNT gas token. See fees and timing before you sign, and keep your own keys.">
 <meta name="twitter:image" content="https://bridge-mantle.github.io/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://bridge-mantle.github.io/#website", "url": "https://bridge-mantle.github.io/", "name": "Mantle Bridge — Move ETH & Tokens to Mantle L2"}, {"@type": "WebPage", "@id": "https://bridge-mantle.github.io/#webpage", "url": "https://bridge-mantle.github.io/", "name": "Mantle Bridge — Move ETH & Tokens to Mantle L2", "isPartOf": {"@id": "https://bridge-mantle.github.io/#website"}, "description": "Use the Mantle Bridge to bring ETH, USDC and tokens onto Mantle, a modular L2 with its own data-availability layer and MNT gas token. See fees and timing before you sign, and keep your own keys.", "datePublished": "2026-10-09", "dateModified": "2026-10-09"}, {"@type": "SoftwareApplication", "name": "Mantle Bridge", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bridge-mantle.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Bridges"}, {"@type": "ListItem", "position": 3, "name": "Mantle Bridge"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What makes Mantle modular?", "acceptedAnswer": {"@type": "Answer", "text": "Mantle separates execution from data availability, posting transaction data to its own DA layer, which helps keep fees low."}}, {"@type": "Question", "name": "Do I need MNT after the Mantle Bridge?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Gas on Mantle is paid in MNT, so keep a small amount to transact once your assets arrive."}}, {"@type": "Question", "name": "Why is a Mantle withdrawal slower than a deposit?", "acceptedAnswer": {"@type": "Answer", "text": "Deposits credit after Ethereum confirmations; withdrawals wait for the rollup to finalize before releasing funds to Ethereum."}}, {"@type": "Question", "name": "Do I need an account to use the Mantle Bridge?", "acceptedAnswer": {"@type": "Answer", "text": "No. You connect a self-custody wallet and bridge on-chain, with no sign-up and no custody."}}, {"@type": "Question", "name": "What if my deposit fails?", "acceptedAnswer": {"@type": "Answer", "text": "It reverts and you keep your assets; only the Ethereum gas for the attempt is spent."}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://bridge-mantle.github.io/#website", "url": "https://bridge-mantle.github.io/", "name": "Mantle Bridge — Move ETH & Tokens to Mantle L2"}, {"@type": "WebPage", "@id": "https://bridge-mantle.github.io/#webpage", "url": "https://bridge-mantle.github.io/", "name": "Mantle Bridge — Move ETH & Tokens to Mantle L2", "isPartOf": {"@id": "https://bridge-mantle.github.io/#website"}, "description": "Use the Mantle Bridge to bring ETH, USDC and tokens onto Mantle, a modular L2 with its own data-availability layer and MNT gas token. See fees and timing before you sign, and keep your own keys.", "datePublished": "2026-10-09", "dateModified": "2026-10-09"}, {"@type": "SoftwareApplication", "name": "Mantle Bridge", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bridge-mantle.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Bridges"}, {"@type": "ListItem", "position": 3, "name": "Mantle Bridge"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What makes Mantle a modular layer-2?", "acceptedAnswer": {"@type": "Answer", "text": "Mantle runs execution on its own layer but posts transaction data to a separate data-availability layer instead of writing all of it to Ethereum. Keeping that data off the most expensive chain is what lets a Mantle Bridge transfer settle cheaply even when the network is busy."}}, {"@type": "Question", "name": "Do I need MNT after a Mantle Bridge?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Gas on Mantle is paid in MNT, not ETH, so keep a small MNT balance to cover your first transactions. You can bridge a little MNT with your main asset or swap for it on a Mantle DEX after you arrive."}}, {"@type": "Question", "name": "Why is a Mantle withdrawal slower than a deposit?", "acceptedAnswer": {"@type": "Answer", "text": "Deposits credit on Mantle within minutes of your Ethereum transaction confirming. Withdrawals wait for the rollup to finalize its state on Ethereum before releasing funds, a security window that is measured in hours rather than minutes."}}, {"@type": "Question", "name": "How much does a Mantle Bridge transfer cost?", "acceptedAnswer": {"@type": "Answer", "text": "You pay Ethereum gas plus any small protocol fee to deposit; activity on Mantle itself is paid in MNT and costs very little. Compare routes by the net amount received after gas and fees rather than the headline figure."}}, {"@type": "Question", "name": "Do I need an account to use the Mantle Bridge?", "acceptedAnswer": {"@type": "Answer", "text": "No. You connect a self-custody wallet and bridge on-chain, with no sign-up and no custody. Your funds stay under your own keys the whole time."}}, {"@type": "Question", "name": "Can I send my assets back to Ethereum?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The canonical route works both ways: start a withdrawal on Mantle, wait for the finalization window, then claim your funds on Ethereum. A third-party bridge can be faster but adds its own fee and trust assumptions."}}, {"@type": "Question", "name": "What happens if my deposit fails?", "acceptedAnswer": {"@type": "Answer", "text": "A failed transaction reverts and you keep your assets; only the Ethereum gas spent on the attempt is lost. Nothing is credited on Mantle until the deposit confirms."}}]}]}</script>
 <style>
 :root{--bg:#0B0D12;--surface:#12151C;--text:#EAEEF4;--muted:#8A93A3;--accent:#4FB6AC;--accent-ink:#06120F;--radius:14px;--display:"Sora";--body:"Inter"}
 *{box-sizing:border-box}
@@ -31,170 +31,185 @@ img,svg{max-width:100%;vertical-align:middle}
 img{height:auto}
 h1,h2,h3,h4,h5,h6{font-family:var(--display);line-height:1.15;letter-spacing:-.035em;text-wrap:balance}
 p{margin:0 0 1.25rem}
-.c6850cc{width:min(1180px,calc(100% - 4rem));margin-inline:auto}
-.cdedc29{position:absolute;top:1rem;left:1rem;transform:translateY(-180%);z-index:5;padding:.65rem 1rem;background:var(--surface);border-radius:var(--radius)}
-.cdedc29:focus{transform:translateY(0)}
-.c668aa9{min-height:96px;display:flex;align-items:center;justify-content:space-between;gap:2rem;border-bottom:1px solid color-mix(in srgb,var(--text) 10%,transparent)}
-.cd4e748{display:flex;align-items:center;gap:.75rem;font:650 1.15rem/1.2 var(--display);letter-spacing:-.035em}
-.c02dbd6{display:grid;place-items:center;width:38px;height:38px;background:var(--accent);color:var(--accent-ink);border-radius:var(--radius)}
-.ce64cb7{width:20px;height:20px;fill:none;stroke:var(--text);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
-.c02dbd6 .ce64cb7,.c59ef32 .ce64cb7{stroke:var(--accent-ink)}
-.c301548{display:flex;align-items:center;gap:1.75rem;font-size:.875rem;font-weight:550}
-.c301548 a{text-decoration:none}
-.c301548 .c09514b{padding:.6rem 1rem;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 13%,transparent);border-radius:var(--radius)}
-.c254582{padding-block:1.6rem .5rem;font-size:.8rem;color:var(--muted);overflow-wrap:anywhere}
-.c6fb1de{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;list-style:none;padding:0;margin:0;color:var(--muted)}
-.c6fb1de a{color:var(--muted);text-decoration:none}
-.c6fb1de a:hover{color:var(--text);text-decoration:underline}
-.cac7abc{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:clamp(2rem,6vw,6rem);align-items:center;padding-block:3.5rem 5.5rem}
-.c1d99d6{min-width:0}
-.cc2f887{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;color:var(--muted);font-size:.875rem}
-.cc2f887::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 12%,transparent)}
+.c720b68{width:min(1180px,calc(100% - 4rem));margin-inline:auto}
+.ce80db8{position:absolute;top:1rem;left:1rem;transform:translateY(-180%);z-index:5;padding:.65rem 1rem;background:var(--surface);border-radius:var(--radius)}
+.ce80db8:focus{transform:translateY(0)}
+.cc67a18{min-height:96px;display:flex;align-items:center;justify-content:space-between;gap:2rem;border-bottom:1px solid color-mix(in srgb,var(--text) 10%,transparent)}
+.c01bf42{display:flex;align-items:center;gap:.75rem;font:650 1.15rem/1.2 var(--display);letter-spacing:-.035em}
+.ca13451{display:grid;place-items:center;width:38px;height:38px;background:var(--accent);color:var(--accent-ink);border-radius:var(--radius)}
+.c88c880{width:20px;height:20px;fill:none;stroke:var(--text);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.ca13451 .c88c880,.c7e2d5b .c88c880{stroke:var(--accent-ink)}
+.c44c7f0{display:flex;align-items:center;gap:1.75rem;font-size:.875rem;font-weight:550}
+.c44c7f0 a{text-decoration:none}
+.c44c7f0 .c3800a7{padding:.6rem 1rem;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 13%,transparent);border-radius:var(--radius)}
+.ccacdf8{padding-block:1.6rem .5rem;font-size:.8rem;color:var(--muted);overflow-wrap:anywhere}
+.cbaf6b7{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;list-style:none;padding:0;margin:0;color:var(--muted)}
+.cbaf6b7 a{color:var(--muted);text-decoration:none}
+.cbaf6b7 a:hover{color:var(--text);text-decoration:underline}
+.c372fa5{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:clamp(2rem,6vw,6rem);align-items:center;padding-block:3.5rem 5.5rem}
+.ccf9a8b{min-width:0}
+.c538ec4{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;color:var(--muted);font-size:.875rem}
+.c538ec4::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 12%,transparent)}
 h1{font-size:clamp(2.65rem,4.7vw,4.7rem);font-weight:600;margin:0 0 1.5rem;overflow-wrap:anywhere}
 h1 em{font-style:normal;color:var(--accent)}
-.c0d19f9{font-size:1.075rem;line-height:1.85;color:var(--muted);max-width:48ch;margin-bottom:2rem}
-.c59ef32{display:inline-flex;align-items:center;justify-content:center;gap:1.4rem;min-height:52px;padding:.85rem 1.4rem;background:linear-gradient(120deg,color-mix(in srgb,var(--accent) 88%,var(--surface)),var(--accent));color:var(--accent-ink);font-weight:650;font-size:.9rem;text-decoration:none;border:1px solid color-mix(in srgb,var(--accent) 80%,var(--text));border-radius:var(--radius);box-shadow:0 5px 14px color-mix(in srgb,var(--accent) 18%,transparent);transition:transform .18s ease,box-shadow .18s ease}
-.c59ef32:hover{color:var(--accent-ink);transform:translateY(-2px);box-shadow:0 9px 24px color-mix(in srgb,var(--accent) 25%,transparent)}
-.ccbc43c{position:relative;isolation:isolate;min-width:0;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius);box-shadow:0 24px 65px -28px color-mix(in srgb,var(--text) 28%,transparent),0 3px 10px color-mix(in srgb,var(--text) 4%,transparent)}
-.ccbc43c::before{content:"";position:absolute;inset:-1.5rem;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 80% 15%,color-mix(in srgb,var(--accent) 13%,transparent),color-mix(in srgb,var(--accent) 0%,transparent) 68%);border-radius:var(--radius)}
-.c455e21{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.5rem 1.75rem;border-bottom:1px solid color-mix(in srgb,var(--text) 9%,transparent)}
-.c455e21 h2{font-size:1.2rem;font-weight:600;margin:0}
-.c32de60{font-size:.72rem;line-height:1.4;color:var(--muted);padding:.35rem .65rem;border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius)}
-.cc20b68{padding:1.6rem 1.75rem 1.75rem}
-.ca3ace0{display:grid;grid-template-columns:minmax(0,1fr) 36px minmax(0,1fr);align-items:center;gap:.6rem;margin-bottom:1.5rem}
-.c0c2cda{min-width:0;display:flex;align-items:center;gap:.75rem;padding:.85rem;background:var(--bg);border:1px solid color-mix(in srgb,var(--text) 7%,transparent);border-radius:var(--radius)}
-.c2ecde4{font-size:.75rem;color:var(--muted)}
-.c36b738{display:flex;align-items:center;justify-content:center;min-width:0;overflow-wrap:anywhere;line-height:1.25;font-size:.8rem}
-.c36b738 img,.c36b738 svg{width:32px;max-height:32px;object-fit:contain}
-.c99f008{display:grid;place-items:center;height:36px;border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:50%}
-.cbb00d8{display:block;margin-bottom:.5rem;font-size:.825rem;font-weight:550}
-.c0f232e{display:flex;align-items:center;gap:.5rem;padding:.8rem 1rem;background:var(--bg);border:1px solid color-mix(in srgb,var(--text) 18%,transparent);border-radius:var(--radius)}
-.c0f232e:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 13%,transparent)}
-.c0f232e input{width:100%;min-width:0;padding:0;border:0;outline:none;background:var(--bg);color:var(--text);font:550 2rem/1.3 var(--display);font-variant-numeric:tabular-nums}
-.c0f232e input::placeholder{color:var(--muted)}
-.c6ec662{font-size:.8rem;color:var(--muted)}
-.c9350c6{font-size:.72rem;line-height:1.6;color:var(--muted);margin:.6rem 0 1.3rem}
-.c9f43a9{font-size:.8rem;color:var(--text);margin:.6rem 0}
+.cc81229{font-size:1.075rem;line-height:1.85;color:var(--muted);max-width:48ch;margin-bottom:2rem}
+.c7e2d5b{display:inline-flex;align-items:center;justify-content:center;gap:1.4rem;min-height:52px;padding:.85rem 1.4rem;background:linear-gradient(120deg,color-mix(in srgb,var(--accent) 88%,var(--surface)),var(--accent));color:var(--accent-ink);font-weight:650;font-size:.9rem;text-decoration:none;border:1px solid color-mix(in srgb,var(--accent) 80%,var(--text));border-radius:var(--radius);box-shadow:0 5px 14px color-mix(in srgb,var(--accent) 18%,transparent);transition:transform .18s ease,box-shadow .18s ease}
+.c7e2d5b:hover{color:var(--accent-ink);transform:translateY(-2px);box-shadow:0 9px 24px color-mix(in srgb,var(--accent) 25%,transparent)}
+.cf40854{position:relative;isolation:isolate;min-width:0;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius);box-shadow:0 24px 65px -28px color-mix(in srgb,var(--text) 28%,transparent),0 3px 10px color-mix(in srgb,var(--text) 4%,transparent)}
+.cf40854::before{content:"";position:absolute;inset:-1.5rem;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 80% 15%,color-mix(in srgb,var(--accent) 13%,transparent),color-mix(in srgb,var(--accent) 0%,transparent) 68%);border-radius:var(--radius)}
+.c9f9b2f{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.5rem 1.75rem;border-bottom:1px solid color-mix(in srgb,var(--text) 9%,transparent)}
+.c9f9b2f h2{font-size:1.2rem;font-weight:600;margin:0}
+.c32f0fc{font-size:.72rem;line-height:1.4;color:var(--muted);padding:.35rem .65rem;border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius)}
+.c56bd9b{padding:1.6rem 1.75rem 1.75rem}
+.c35fec3{display:grid;grid-template-columns:minmax(0,1fr) 36px minmax(0,1fr);align-items:center;gap:.6rem;margin-bottom:1.5rem}
+.c32c9e1{min-width:0;display:flex;align-items:center;gap:.75rem;padding:.85rem;background:var(--bg);border:1px solid color-mix(in srgb,var(--text) 7%,transparent);border-radius:var(--radius)}
+.c18907e{font-size:.75rem;color:var(--muted)}
+.c292cd0{display:flex;align-items:center;justify-content:center;min-width:0;overflow-wrap:anywhere;line-height:1.25;font-size:.8rem}
+.c292cd0 img,.c292cd0 svg{width:32px;max-height:32px;object-fit:contain}
+.cdf1d91{display:grid;place-items:center;height:36px;border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:50%}
+.c78f593{display:block;margin-bottom:.5rem;font-size:.825rem;font-weight:550}
+.c305c07{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:0 0 1.3rem}
+.cfef3f3{min-width:0}
+.ce9e3fa{position:relative}
+.ce9e3fa::after{content:"";position:absolute;right:.9rem;top:50%;width:.5rem;height:.5rem;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.c5318bc{width:100%;padding:.7rem 2rem .7rem .85rem;background:var(--bg);color:var(--text);border:1px solid color-mix(in srgb,var(--text) 18%,transparent);border-radius:var(--radius);font:550 .9rem/1.3 var(--body);appearance:none;-webkit-appearance:none;cursor:pointer}
+.c5318bc:focus-visible{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 13%,transparent)}
+.c4ec085{display:flex;align-items:center;gap:.5rem;padding:.8rem 1rem;background:var(--bg);border:1px solid color-mix(in srgb,var(--text) 18%,transparent);border-radius:var(--radius)}
+.c4ec085:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 13%,transparent)}
+.c4ec085 input{width:100%;min-width:0;padding:0;border:0;outline:none;background:var(--bg);color:var(--text);font:550 2rem/1.3 var(--display);font-variant-numeric:tabular-nums}
+.c4ec085 input::placeholder{color:var(--muted)}
+.c6bfbc3{font-size:.8rem;color:var(--muted)}
+.ca021da{font-size:.72rem;line-height:1.6;color:var(--muted);margin:.6rem 0 1.3rem}
+.c9d7141{font-size:.8rem;color:var(--text);margin:.6rem 0}
 [hidden]{display:none!important}
-.cd2d824{padding:1.2rem;background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 10%,var(--surface)),color-mix(in srgb,var(--accent) 3%,var(--surface)));border:1px solid color-mix(in srgb,var(--accent) 18%,transparent);border-radius:var(--radius)}
-.ce44144{display:block;color:var(--muted);font-size:.78rem;margin-bottom:.3rem}
-.c0ac1eb{display:block;font:600 clamp(1.9rem,3vw,2.6rem)/1.2 var(--display);letter-spacing:-.045em;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
-.c4d53b7{font:400 .8rem/1.5 var(--body);letter-spacing:0;color:var(--muted)}
-.c260093{display:grid;gap:.6rem;margin:1rem 0 0;padding-top:.9rem;border-top:1px solid color-mix(in srgb,var(--text) 10%,transparent);font-size:.8rem}
-.c260093 div{display:flex;justify-content:space-between;gap:1rem}
-.c260093 dt{color:var(--muted)}
-.c260093 dd{margin:0;text-align:right;font-weight:550;font-variant-numeric:tabular-nums}
-.ccbc43c .c59ef32{display:flex;width:100%;margin-top:1.25rem;justify-content:space-between}
-.ccfd167{margin-top:1rem;color:var(--muted);font-size:.75rem}
-.ccfd167 summary{cursor:pointer;text-underline-offset:.2em}
-.ccfd167 summary:hover{color:var(--text)}
-.ccfd167 p{margin:.7rem 0 0;line-height:1.7}
-.cb609b6{padding:2rem 2.25rem;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius)}
-.c02529b{font-size:1.4rem;font-weight:600;margin:0 0 1.4rem}
-.c4653fe{overflow-x:auto}
-.cabaa3c{width:100%;border-collapse:collapse;text-align:left;font-size:.9rem}
-.cabaa3c caption{text-align:left;color:var(--muted);padding-bottom:1rem}
-.cabaa3c th,.cabaa3c td{padding:1rem 1.1rem;border-bottom:1px solid color-mix(in srgb,var(--text) 9%,transparent);vertical-align:top;overflow-wrap:anywhere}
-.cabaa3c th{font-weight:550;color:var(--muted)}
-.cabaa3c th:first-child,.cabaa3c td:first-child{padding-left:0}
-.cabaa3c th:last-child,.cabaa3c td:last-child{padding-right:0}
-.cabaa3c tbody tr:last-child>*{border-bottom:0}
-.cbf71b1{width:min(800px,100%);margin:4.5rem auto}
-.c37381e{margin-bottom:3.25rem;scroll-margin-top:2rem}
-.c90e537{font:600 clamp(1.65rem,3vw,2.3rem)/1.2 var(--display);letter-spacing:-.035em;margin:0 0 1.25rem;text-wrap:balance}
-.c6f1311{color:var(--muted);font:400 1rem/1.85 var(--body);overflow-wrap:anywhere}
-.c6f1311 h3,.c6f1311 h4{color:var(--text);margin:1.8rem 0 .8rem}
-.c6f1311 strong{color:var(--text);font-weight:600}
-.c6f1311 a,.c26599e a,.cc1233b a{text-decoration-color:color-mix(in srgb,var(--accent) 60%,var(--text))}
-.c6f1311 ul,.c6f1311 ol,.c26599e ul,.c26599e ol{padding-left:1.4rem}
-.c6f1311 li+li,.c26599e li+li{margin-top:.5rem}
-.c6f1311 blockquote{margin:1.8rem 0;padding:.3rem 0 .3rem 1.25rem;border-left:3px solid var(--accent);color:var(--text)}
-.c6f1311 blockquote p:last-child{margin-bottom:0}
-.c6f1311 table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}
-.c6f1311 th,.c6f1311 td{padding:.75rem;border:1px solid color-mix(in srgb,var(--text) 12%,transparent);text-align:left}
-.c6f1311 code,.c6f1311 pre{font-family:var(--body);background:var(--surface);border-radius:var(--radius)}
-.c6f1311 pre{padding:1rem;overflow-x:auto}
-.c87a667{margin:.85rem 0;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 11%,transparent);border-radius:var(--radius);overflow:hidden}
-.c01f61c{position:relative;list-style:none;cursor:pointer;padding:1.3rem 3.8rem 1.3rem 1.4rem;font:550 1.05rem/1.5 var(--display);color:var(--text)}
-.c01f61c::-webkit-details-marker{display:none}
-.c01f61c::after{content:"+";position:absolute;right:1.4rem;top:1.25rem;font:400 1.4rem/1.2 var(--body);color:var(--muted)}
-.c87a667[open]>.c01f61c::after{content:"−"}
-.c87a667[open]{border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
-.c01f61c:focus-visible{outline-offset:-5px}
-.c26599e{padding:0 1.4rem 1.4rem;color:var(--muted);font-size:.95rem;line-height:1.8;overflow-wrap:anywhere}
-.c26599e p:last-child{margin-bottom:0}
-.c040216{padding:2rem 0 3rem;border-top:1px solid color-mix(in srgb,var(--text) 12%,transparent)}
-.c7d5e63{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem 2rem;list-style:none;padding:0;margin:0}
-.cc1233b{font-size:.85rem;color:var(--muted);overflow-wrap:anywhere;padding:.65rem 0}
-.c9a765d{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.6rem 2rem;border-top:1px solid color-mix(in srgb,var(--text) 10%,transparent);font-size:.8rem;color:var(--muted)}
-.c9a765d p{margin:0}
-.c9a765d a{color:var(--muted)}
-@media(min-width:1500px){.cac7abc{padding-block:5rem 6rem}}
-@media(max-width:900px){.cac7abc{gap:2rem}.c455e21,.cc20b68{padding:1.25rem}.c0c2cda{padding:.65rem;gap:.5rem}.c301548{gap:1rem}}
-@media(max-width:760px){.c6850cc{width:calc(100% - 2.5rem)}.c668aa9{min-height:80px;gap:1rem}.c301548 .cdf187d{display:none}.cac7abc{grid-template-columns:1fr;padding-block:2.5rem 3rem;gap:2.5rem}.c1d99d6{max-width:600px}h1{font-size:clamp(2.6rem,9vw,4rem)}.c0d19f9{max-width:55ch}.ccbc43c{width:100%;max-width:520px;justify-self:center}.ccbc43c::before{inset:-.75rem}.cb609b6{padding:1.5rem}.cbf71b1{margin-block:3rem}.c7d5e63{grid-template-columns:1fr;gap:.25rem}.c9a765d{align-items:flex-start;flex-direction:column;gap:.6rem}}
-@media(max-width:380px){.c6850cc{width:calc(100% - 2rem)}.cd4e748{font-size:1rem;gap:.5rem}.c02dbd6{width:30px;height:30px}.c301548 .c09514b{padding:.55rem .7rem}.c455e21,.cc20b68{padding:1rem}.ca3ace0{gap:.4rem;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr)}.c99f008{height:28px}.c0c2cda{flex-direction:column;align-items:flex-start}.cb609b6{padding:1.1rem}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.c59ef32{transition:none}}
+.c28bae5{padding:1.2rem;background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 10%,var(--surface)),color-mix(in srgb,var(--accent) 3%,var(--surface)));border:1px solid color-mix(in srgb,var(--accent) 18%,transparent);border-radius:var(--radius)}
+.ccbfd12{display:block;color:var(--muted);font-size:.78rem;margin-bottom:.3rem}
+.ca24156{display:block;font:600 clamp(1.9rem,3vw,2.6rem)/1.2 var(--display);letter-spacing:-.045em;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.c24ee1d{font:400 .8rem/1.5 var(--body);letter-spacing:0;color:var(--muted)}
+.c2ae39a{display:grid;gap:.6rem;margin:1rem 0 0;padding-top:.9rem;border-top:1px solid color-mix(in srgb,var(--text) 10%,transparent);font-size:.8rem}
+.c2ae39a div{display:flex;justify-content:space-between;gap:1rem}
+.c2ae39a dt{color:var(--muted)}
+.c2ae39a dd{margin:0;text-align:right;font-weight:550;font-variant-numeric:tabular-nums}
+.cf40854 .c7e2d5b{display:flex;width:100%;margin-top:1.25rem;justify-content:space-between}
+.c8733e0{margin-top:1rem;color:var(--muted);font-size:.75rem}
+.c8733e0 summary{cursor:pointer;text-underline-offset:.2em}
+.c8733e0 summary:hover{color:var(--text)}
+.c8733e0 p{margin:.7rem 0 0;line-height:1.7}
+.c87820d{padding:2rem 2.25rem;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius)}
+.c6d69fd{font-size:1.4rem;font-weight:600;margin:0 0 1.4rem}
+.c550157{overflow-x:auto}
+.c7d44bf{width:100%;border-collapse:collapse;text-align:left;font-size:.9rem}
+.c7d44bf caption{text-align:left;color:var(--muted);padding-bottom:1rem}
+.c7d44bf th,.c7d44bf td{padding:1rem 1.1rem;border-bottom:1px solid color-mix(in srgb,var(--text) 9%,transparent);vertical-align:top;overflow-wrap:anywhere}
+.c7d44bf th{font-weight:550;color:var(--muted)}
+.c7d44bf th:first-child,.c7d44bf td:first-child{padding-left:0}
+.c7d44bf th:last-child,.c7d44bf td:last-child{padding-right:0}
+.c7d44bf tbody tr:last-child>*{border-bottom:0}
+.cc6e05d{width:min(800px,100%);margin:4.5rem auto}
+.c1a9628{margin-bottom:3.25rem;scroll-margin-top:2rem}
+.cad417e{font:600 clamp(1.65rem,3vw,2.3rem)/1.2 var(--display);letter-spacing:-.035em;margin:0 0 1.25rem;text-wrap:balance}
+.c2ed843{color:var(--muted);font:400 1rem/1.85 var(--body);overflow-wrap:anywhere}
+.c2ed843 h3,.c2ed843 h4{color:var(--text);margin:1.8rem 0 .8rem}
+.c2ed843 strong{color:var(--text);font-weight:600}
+.c2ed843 a,.cbab10e a,.cee0090 a{text-decoration-color:color-mix(in srgb,var(--accent) 60%,var(--text))}
+.c2ed843 ul,.c2ed843 ol,.cbab10e ul,.cbab10e ol{padding-left:1.4rem}
+.c2ed843 li+li,.cbab10e li+li{margin-top:.5rem}
+.c2ed843 blockquote{margin:1.8rem 0;padding:.3rem 0 .3rem 1.25rem;border-left:3px solid var(--accent);color:var(--text)}
+.c2ed843 blockquote p:last-child{margin-bottom:0}
+.c2ed843 table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}
+.c2ed843 th,.c2ed843 td{padding:.75rem;border:1px solid color-mix(in srgb,var(--text) 12%,transparent);text-align:left}
+.c2ed843 code,.c2ed843 pre{font-family:var(--body);background:var(--surface);border-radius:var(--radius)}
+.c2ed843 pre{padding:1rem;overflow-x:auto}
+.c593ec2{margin:.85rem 0;background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 11%,transparent);border-radius:var(--radius);overflow:hidden}
+.c84ec38{position:relative;list-style:none;cursor:pointer;padding:1.3rem 3.8rem 1.3rem 1.4rem;font:550 1.05rem/1.5 var(--display);color:var(--text)}
+.c84ec38::-webkit-details-marker{display:none}
+.c84ec38::after{content:"+";position:absolute;right:1.4rem;top:1.25rem;font:400 1.4rem/1.2 var(--body);color:var(--muted)}
+.c593ec2[open]>.c84ec38::after{content:"−"}
+.c593ec2[open]{border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.c84ec38:focus-visible{outline-offset:-5px}
+.cbab10e{padding:0 1.4rem 1.4rem;color:var(--muted);font-size:.95rem;line-height:1.8;overflow-wrap:anywhere}
+.cbab10e p:last-child{margin-bottom:0}
+.cea3114{padding:2rem 0 3rem;border-top:1px solid color-mix(in srgb,var(--text) 12%,transparent)}
+.c7425ba{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem 2rem;list-style:none;padding:0;margin:0}
+.cee0090{font-size:.85rem;color:var(--muted);overflow-wrap:anywhere;padding:.65rem 0}
+.c179f9c{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.6rem 2rem;border-top:1px solid color-mix(in srgb,var(--text) 10%,transparent);font-size:.8rem;color:var(--muted)}
+.c179f9c p{margin:0}
+.c179f9c a{color:var(--muted)}
+@media(min-width:1500px){.c372fa5{padding-block:5rem 6rem}}
+@media(max-width:900px){.c372fa5{gap:2rem}.c9f9b2f,.c56bd9b{padding:1.25rem}.c32c9e1{padding:.65rem;gap:.5rem}.c44c7f0{gap:1rem}}
+@media(max-width:760px){.c720b68{width:calc(100% - 2.5rem)}.cc67a18{min-height:80px;gap:1rem}.c44c7f0 .c7a6c96{display:none}.c372fa5{grid-template-columns:1fr;padding-block:2.5rem 3rem;gap:2.5rem}.ccf9a8b{max-width:600px}h1{font-size:clamp(2.6rem,9vw,4rem)}.cc81229{max-width:55ch}.cf40854{width:100%;max-width:520px;justify-self:center}.cf40854::before{inset:-.75rem}.c87820d{padding:1.5rem}.cc6e05d{margin-block:3rem}.c7425ba{grid-template-columns:1fr;gap:.25rem}.c179f9c{align-items:flex-start;flex-direction:column;gap:.6rem}}
+@media(max-width:380px){.c720b68{width:calc(100% - 2rem)}.c01bf42{font-size:1rem;gap:.5rem}.ca13451{width:30px;height:30px}.c44c7f0 .c3800a7{padding:.55rem .7rem}.c9f9b2f,.c56bd9b{padding:1rem}.c35fec3{gap:.4rem;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr)}.cdf1d91{height:28px}.c32c9e1{flex-direction:column;align-items:flex-start}.c87820d{padding:1.1rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.c7e2d5b{transition:none}}
 </style>
 </head>
 <body>
-<a class="cdedc29" href="#content">Skip to content</a>
-<div class="c6850cc">
-<nav class="c668aa9" aria-label="Primary navigation">
-<div class="cd4e748"><span class="c02dbd6" aria-hidden="true"><svg class="ce64cb7" viewBox="0 0 24 24"><path d="M5 8h14m-4-4 4 4-4 4M19 16H5m4-4-4 4 4 4"/></svg></span>Transfer guide</div>
-<div class="c301548"><a class="cdf187d" href="#key-facts">Key facts</a><a class="cdf187d" href="#sources">Sources</a><a class="c09514b" href="dashboard/">Open app <span aria-hidden="true">↗</span></a></div>
+<a class="ce80db8" href="#content">Skip to content</a>
+<div class="c720b68">
+<nav class="cc67a18" aria-label="Primary navigation">
+<div class="c01bf42"><span class="ca13451" aria-hidden="true"><svg class="c88c880" viewBox="0 0 24 24"><path d="M5 8h14m-4-4 4 4-4 4M19 16H5m4-4-4 4 4 4"/></svg></span>Transfer guide</div>
+<div class="c44c7f0"><a class="c7a6c96" href="#key-facts">Key facts</a><a class="c7a6c96" href="#sources">Sources</a><a class="c3800a7" href="dashboard/">Open app <span aria-hidden="true">↗</span></a></div>
 </nav>
-<div class="c254582"><nav class="c6fb1de" aria-label="Breadcrumb"><a href="dashboard/">Home</a> <span>/</span> <span>Bridges</span> <span>/</span> <span>Mantle Bridge</span></nav></div>
-<header class="cac7abc">
-<div class="c1d99d6">
-<p class="cc2f887">Plan your transfer</p>
+<div class="ccacdf8"><nav class="cbaf6b7" aria-label="Breadcrumb"><a href="dashboard/">Home</a> <span>/</span> <span>Bridges</span> <span>/</span> <span>Mantle Bridge</span></nav></div>
+<header class="c372fa5">
+<div class="ccf9a8b">
+<p class="c538ec4">Plan your transfer</p>
 <h1>Mantle <em>Bridge</em>.</h1>
-<p class="c0d19f9">The Mantle Bridge brings ETH, USDC and tokens onto Mantle, a modular layer-2 that posts transaction data to its own data-availability layer instead of all to Ethereum, which is how it keeps fees low. You see the amount received and the fee before signing, and keep your own keys throughout.</p>
-<a class="c59ef32" href="dashboard/">Start a transfer <svg class="ce64cb7" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+<p class="cc81229">A Mantle Bridge moves ETH, USDC and other tokens from Ethereum onto Mantle, a modular layer-2 that posts its transaction data to a separate data-availability layer instead of pushing all of it to Ethereum — the reason its gas stays cheap. You pick the amount, review the fee and the amount that will arrive before you sign, pay for the deposit in ETH, and your funds stay in your own wallet the entire time.</p>
+<a class="c7e2d5b" href="dashboard/">Start a transfer <svg class="c88c880" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
 </div>
-<aside class="ccbc43c" aria-labelledby="estimator-title">
-<div class="c455e21"><h2 id="estimator-title">Transfer estimator</h2><span class="c32de60">Fee &amp; time</span></div>
-<div class="cc20b68">
-<div class="ca3ace0">
-<div class="c0c2cda"><span class="c2ecde4">From</span><div class="c36b738"><img src="assets/tokens/eth.svg" alt="Ethereum" width="28" height="28"></div></div>
-<span class="c99f008" aria-hidden="true"><svg class="ce64cb7" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
-<div class="c0c2cda"><span class="c2ecde4">To</span><div class="c36b738"></div></div>
+<aside class="cf40854" aria-labelledby="estimator-title">
+<div class="c9f9b2f"><h2 id="estimator-title">Transfer estimator</h2><span class="c32f0fc">Fee &amp; time</span></div>
+<div class="c56bd9b">
+<div class="c35fec3">
+<div class="c32c9e1"><span class="c18907e">From</span><div class="c292cd0"><img src="assets/tokens/eth.svg" alt="Ethereum" width="28" height="28"></div></div>
+<span class="cdf1d91" aria-hidden="true"><svg class="c88c880" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+<div class="c32c9e1"><span class="c18907e">To</span><div class="c292cd0"></div></div>
 </div>
-<label class="cbb00d8" for="amount">Amount to send</label>
-<div class="c0f232e"><input id="amount" type="text" inputmode="decimal" value="1000" maxlength="20" autocomplete="off" spellcheck="false" aria-describedby="amount-help amount-error"><span class="c6ec662">units</span></div>
-<p class="c9350c6" id="amount-help">Enter 1–1,000,000 units. Use a point or comma for decimals.</p>
-<p class="c9f43a9" id="amount-error" role="status" hidden></p>
-<div class="cd2d824" aria-live="polite" aria-atomic="true">
-<span class="ce44144">Estimated amount after fee</span>
-<div class="c0ac1eb"><output id="net" for="amount">—</output> <span class="c4d53b7">units</span></div>
-<dl class="c260093"><div><dt>Estimated fee</dt><dd><output id="fee" for="amount">—</output></dd></div><div><dt>Estimated time</dt><dd><output id="time" for="amount">—</output></dd></div></dl>
+<label class="c78f593" for="amount">Amount to send</label>
+<div class="c4ec085"><input id="amount" type="text" inputmode="decimal" value="1000" maxlength="20" autocomplete="off" spellcheck="false" aria-describedby="amount-help amount-error"><span class="c6bfbc3">units</span></div>
+<p class="ca021da" id="amount-help">Enter 1–1,000,000 units. Use a point or comma for decimals.</p>
+<p class="c9d7141" id="amount-error" role="status" hidden></p>
+<div class="c305c07">
+<div class="cfef3f3"><label class="c78f593" for="speed">Transfer speed</label><div class="ce9e3fa"><select id="speed" class="c5318bc"><option value="std">Standard</option><option value="fast">Fast</option><option value="prio">Priority</option></select></div></div>
+<div class="cfef3f3"><label class="c78f593" for="load">Network load</label><div class="ce9e3fa"><select id="load" class="c5318bc"><option value="normal">Normal</option><option value="busy">Busy</option></select></div></div>
 </div>
-<a class="c59ef32" href="dashboard/">Continue to dashboard <svg class="ce64cb7" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
-<details class="ccfd167"><summary>How the estimate is calculated</summary><p>Fee = 0.50 units + 0.25% of the amount, rounded to two decimals. The remaining amount is the input minus the fee. Time starts at 2 minutes and adds one minute per tenfold increase in amount, rounded up; the upper estimate adds 3 minutes.</p></details>
-<noscript><p class="c9350c6">Enable JavaScript to calculate the fee and time from your amount.</p></noscript>
+<div class="c28bae5" aria-live="polite" aria-atomic="true">
+<span class="ccbfd12">Estimated amount after fee</span>
+<div class="ca24156"><output id="net" for="amount">—</output> <span class="c24ee1d">units</span></div>
+<dl class="c2ae39a"><div><dt>Estimated fee</dt><dd><output id="fee" for="amount">—</output></dd></div><div><dt>Estimated time</dt><dd><output id="time" for="amount">—</output></dd></div></dl>
+</div>
+<a class="c7e2d5b" href="dashboard/">Continue to dashboard <svg class="c88c880" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+<details class="c8733e0"><summary>How the estimate is calculated</summary><p>Fee = 0.50 units + 0.25% of the amount, rounded to two decimals. The remaining amount is the input minus the fee. Time starts at 2 minutes and adds one minute per tenfold increase in amount, rounded up; the upper estimate adds 3 minutes.</p></details>
+<noscript><p class="ca021da">Enable JavaScript to calculate the fee and time from your amount.</p></noscript>
 </div>
 </aside>
 </header>
-<section class="cb609b6" id="key-facts" aria-labelledby="facts-title"><h2 class="c02529b" id="facts-title">Key facts</h2><div class="c4653fe"><table class="cabaa3c"><tbody><tr><th scope="row">Architecture</th><td>Modular L2 with separate DA layer</td></tr>
-<tr><th scope="row">Gas token</th><td>MNT</td></tr>
-<tr><th scope="row">Deposit</th><td>Minutes after Ethereum confirmations</td></tr>
-<tr><th scope="row">Withdrawal</th><td>After rollup finalization</td></tr>
-<tr><th scope="row">Custody</th><td>Self-custody — your keys</td></tr></tbody></table></div></section>
-<main class="cbf71b1" id="content" tabindex="-1">
-<section class="c37381e"><h2 class="c90e537">How the Mantle Bridge fits Mantle's modular design</h2><div class="c6f1311">Unlike a monolithic rollup, Mantle splits the job: execution on the L2 and transaction data on a <strong>separate data-availability layer</strong>. The Mantle Bridge deposits your asset on Ethereum and credits it on Mantle, where that modular design is the reason gas stays low even when activity is high.</div></section>
-<section class="c37381e"><h2 class="c90e537">MNT: the gas token you need after the Mantle Bridge</h2><div class="c6f1311">Mantle uses MNT, not ETH, to pay for gas on the network. After you bridge in, keep a little MNT so you can transact; many users bridge a small amount alongside their main asset, or acquire MNT on a Mantle DEX once they arrive.</div></section>
-<section class="c37381e"><h2 class="c90e537">Deposit and withdrawal flow on the Mantle Bridge</h2><div class="c6f1311">Deposits credit on Mantle within minutes of your Ethereum transaction confirming. Standard withdrawals back to Ethereum follow the rollup's finalization before funds release, so the exit side is slower than the entry. The current estimate is shown before you commit.</div></section>
-<section class="c37381e"><h2 class="c90e537">What a Mantle Bridge transfer costs</h2><div class="c6f1311">You pay Ethereum gas to deposit; on Mantle itself fees are low thanks to the modular data-availability approach, paid in MNT. Compare routes by the net amount received after Ethereum gas and any protocol fee rather than the headline figure.</div></section>
-<section class="c37381e"><h2 class="c90e537">The Mantle ecosystem after you bridge</h2><div class="c6f1311">On Mantle your assets work across its DeFi — DEXs, lending, liquidity and MNT-denominated apps. Hold a little MNT for gas, and when you want native ETH on mainnet again, exit through the canonical withdrawal route.</div></section>
-<details class="c87a667"><summary class="c01f61c">What makes Mantle modular?</summary><div class="c26599e">Mantle separates execution from data availability, posting transaction data to its own DA layer, which helps keep fees low.</div></details>
-<details class="c87a667"><summary class="c01f61c">Do I need MNT after the Mantle Bridge?</summary><div class="c26599e">Yes. Gas on Mantle is paid in MNT, so keep a small amount to transact once your assets arrive.</div></details>
-<details class="c87a667"><summary class="c01f61c">Why is a Mantle withdrawal slower than a deposit?</summary><div class="c26599e">Deposits credit after Ethereum confirmations; withdrawals wait for the rollup to finalize before releasing funds to Ethereum.</div></details>
-<details class="c87a667"><summary class="c01f61c">Do I need an account to use the Mantle Bridge?</summary><div class="c26599e">No. You connect a self-custody wallet and bridge on-chain, with no sign-up and no custody.</div></details>
-<details class="c87a667"><summary class="c01f61c">What if my deposit fails?</summary><div class="c26599e">It reverts and you keep your assets; only the Ethereum gas for the attempt is spent.</div></details>
+<section class="c87820d" id="key-facts" aria-labelledby="facts-title"><h2 class="c6d69fd" id="facts-title">Key facts</h2><div class="c550157"><table class="c7d44bf"><tbody><tr><th scope="row">Network</th><td>Mantle — modular Ethereum layer-2</td></tr>
+<tr><th scope="row">Data availability</th><td>Separate DA layer, not full Ethereum calldata</td></tr>
+<tr><th scope="row">Gas token</th><td>MNT (not ETH)</td></tr>
+<tr><th scope="row">Deposit time</th><td>Minutes, after Ethereum confirmations</td></tr>
+<tr><th scope="row">Withdrawal time</th><td>After the rollup challenge window</td></tr>
+<tr><th scope="row">Custody</th><td>Self-custody — you hold your keys</td></tr></tbody></table></div></section>
+<main class="cc6e05d" id="content" tabindex="-1">
+<section class="c1a9628"><h2 class="cad417e">What a Mantle Bridge does</h2><div class="c2ed843"><strong>A Mantle Bridge locks or burns your asset on one chain and credits the matching amount on the other, so value moves between Ethereum and Mantle without any asset ever leaving self-custody.</strong> When you deposit, the bridge contract on Ethereum receives your ETH or token and Mantle mints the equivalent to your address a few minutes later. When you withdraw, the reverse happens: the asset is burned on Mantle and released on Ethereum once the network has finalized the exit. The amount that will arrive, the fee and the estimated time are all shown before you sign, so there is no guesswork at the moment of approval.<h3>Why Mantle keeps fees low</h3>Mantle is a <strong>modular</strong> rollup: it runs execution on its own layer but publishes transaction data to a dedicated data-availability layer rather than writing all of it as Ethereum calldata. Posting data is the largest cost a rollup carries, so moving it off the most expensive chain is what lets a Mantle Bridge transfer settle for a fraction of mainnet gas, even when the network is busy.<h3>What you can bring across</h3>ETH and major stablecoins such as USDC and USDT are the common deposits, and the same route handles most ERC-20 tokens Mantle supports. The asset keeps its identity on the other side — bridged USDC spends as USDC — and can be sent back to Ethereum through the same canonical path whenever you want.</div></section>
+<section class="c1a9628"><h2 class="cad417e">MNT: the gas token you need after a Mantle Bridge</h2><div class="c2ed843">Mantle does not use ETH for gas. The network pays transaction fees in <strong>MNT</strong>, so the first thing to plan for after a Mantle Bridge deposit is a small MNT balance to cover your first moves. Many people bridge a little MNT alongside their main asset; others arrive with ETH or a stablecoin and swap a small amount for MNT on a Mantle DEX before doing anything else. Either way, treat MNT the way you would treat gas on any chain: keep enough for several transactions, not just one, so a swap or a withdrawal never fails for want of fee money.</div></section>
+<section class="c1a9628"><h2 class="cad417e">Mantle Bridge fees and timing</h2><div class="c2ed843">A Mantle Bridge charges you the Ethereum gas to run the deposit transaction plus any small protocol fee; once your funds are on Mantle, activity there is paid in MNT and costs very little thanks to the modular data-availability design. Timing is not symmetric — deposits are fast, withdrawals are deliberately slower because the rollup waits before releasing funds on Ethereum. The table below sets out what to expect on each side.<table><thead><tr><th>Direction</th><th>What you pay</th><th>Typical time</th></tr></thead><tbody><tr><td>Deposit to Mantle</td><td>Ethereum gas + protocol fee</td><td>Minutes after confirmations</td></tr><tr><td>Activity on Mantle</td><td>MNT gas (very low)</td><td>Seconds</td></tr><tr><td>Withdrawal to Ethereum</td><td>Mantle gas, then Ethereum gas to finalize</td><td>Hours to the finalization window</td></tr></tbody></table><h3>Judge a route by the net amount</h3>Compare any bridge route by the <strong>net amount received</strong> after gas and fees, not the headline rate. For small transfers the fixed Ethereum gas can dominate, so bridging a tiny amount is rarely worth it; batching a larger deposit spreads that cost across more value.</div></section>
+<section class="c1a9628"><h2 class="cad417e">Deposit and withdrawal flow, step by step</h2><div class="c2ed843">The flow is the same every time, which is what makes a Mantle Bridge predictable once you have done it once.<ul><li>Connect your self-custody wallet and choose Ethereum as the source and Mantle as the destination.</li><li>Enter the amount; the route shows the fee and the amount that will arrive.</li><li>Approve the token if it is an ERC-20, then sign the deposit transaction and pay Ethereum gas.</li><li>Wait for Ethereum confirmations — your balance appears on Mantle a few minutes later.</li><li>To exit, start a withdrawal on Mantle, wait for the finalization window, then claim on Ethereum.</li></ul><h3>Why withdrawals take longer than deposits</h3>Deposits only need Ethereum to confirm your transaction, which happens in minutes. Withdrawals wait for Mantle's rollup to finalize its state on Ethereum before funds are released, a security window that protects the network. This is normal for a rollup and is the reason the exit side is measured in hours rather than minutes.</div></section>
+<section class="c1a9628"><h2 class="cad417e">Is a Mantle Bridge safe to use?</h2><div class="c2ed843">A canonical Mantle Bridge keeps your keys in your wallet and never takes custody, so the main risks are the ones you control at signing. Confirm the destination token's contract address, check the amount received against the amount you sent, and review the approval you are granting.<h3>Approvals and allowances</h3>Prefer a limited approval over an unlimited one so a contract can only ever move the amount you intend, and revoke old allowances you no longer use. The fewer standing approvals your wallet carries, the smaller the surface any single risk can touch.<h3>The one rule that never changes</h3>No bridge, wallet or support agent ever needs your seed phrase. Anyone asking for it is attempting fraud. A real Mantle Bridge only ever asks you to sign a transaction you can read in your wallet — it never asks you to type or paste your recovery words anywhere.</div></section>
+<section class="c1a9628"><h2 class="cad417e">What the Mantle ecosystem offers once you bridge</h2><div class="c2ed843">Bridging is the on-ramp, not the destination. Once your assets are on Mantle they work across its DeFi — decentralized exchanges, lending markets, liquidity pools and MNT-denominated apps — at the low fees the modular design makes possible. Keep a small MNT balance for gas, use the native stablecoins and ETH you brought across for trading or yield, and when you want native ETH back on Ethereum, exit through the canonical withdrawal route rather than an unknown third-party path.</div></section>
+<section class="c1a9628"><h2 class="cad417e">Mantle Bridge vs a third-party bridge</h2><div class="c2ed843">You can reach Mantle through the canonical Mantle Bridge or through a third-party liquidity bridge. The canonical route mints the official representation of your asset and is the reference path for large or long-term transfers. A third-party bridge can be faster for withdrawals because it fronts liquidity rather than waiting for finalization, but it adds its own fee and its own trust assumptions. For most users the rule is simple: use the canonical Mantle Bridge unless you specifically need a faster exit and have checked the third party's reputation and the net amount it quotes.</div></section>
+<details class="c593ec2"><summary class="c84ec38">What makes Mantle a modular layer-2?</summary><div class="cbab10e">Mantle runs execution on its own layer but posts transaction data to a separate data-availability layer instead of writing all of it to Ethereum. Keeping that data off the most expensive chain is what lets a Mantle Bridge transfer settle cheaply even when the network is busy.</div></details>
+<details class="c593ec2"><summary class="c84ec38">Do I need MNT after a Mantle Bridge?</summary><div class="cbab10e">Yes. Gas on Mantle is paid in MNT, not ETH, so keep a small MNT balance to cover your first transactions. You can bridge a little MNT with your main asset or swap for it on a Mantle DEX after you arrive.</div></details>
+<details class="c593ec2"><summary class="c84ec38">Why is a Mantle withdrawal slower than a deposit?</summary><div class="cbab10e">Deposits credit on Mantle within minutes of your Ethereum transaction confirming. Withdrawals wait for the rollup to finalize its state on Ethereum before releasing funds, a security window that is measured in hours rather than minutes.</div></details>
+<details class="c593ec2"><summary class="c84ec38">How much does a Mantle Bridge transfer cost?</summary><div class="cbab10e">You pay Ethereum gas plus any small protocol fee to deposit; activity on Mantle itself is paid in MNT and costs very little. Compare routes by the net amount received after gas and fees rather than the headline figure.</div></details>
+<details class="c593ec2"><summary class="c84ec38">Do I need an account to use the Mantle Bridge?</summary><div class="cbab10e">No. You connect a self-custody wallet and bridge on-chain, with no sign-up and no custody. Your funds stay under your own keys the whole time.</div></details>
+<details class="c593ec2"><summary class="c84ec38">Can I send my assets back to Ethereum?</summary><div class="cbab10e">Yes. The canonical route works both ways: start a withdrawal on Mantle, wait for the finalization window, then claim your funds on Ethereum. A third-party bridge can be faster but adds its own fee and trust assumptions.</div></details>
+<details class="c593ec2"><summary class="c84ec38">What happens if my deposit fails?</summary><div class="cbab10e">A failed transaction reverts and you keep your assets; only the Ethereum gas spent on the attempt is lost. Nothing is credited on Mantle until the deposit confirms.</div></details>
 </main>
-<section class="c040216" id="sources" aria-labelledby="sources-title"><h2 class="c02529b" id="sources-title">Sources</h2><ul class="c7d5e63"><li><a class="cc1233b" href="https://docs.mantle.xyz/" rel="nofollow noopener" target="_blank">Mantle documentation</a></li>
-<li><a class="cc1233b" href="https://l2beat.com/scaling/projects/mantle" rel="nofollow noopener" target="_blank">Mantle on L2BEAT</a></li>
-<li><a class="cc1233b" href="https://explorer.mantle.xyz/" rel="nofollow noopener" target="_blank">Mantle explorer</a></li></ul></section>
-<footer class="c9a765d"><p>Updated Oct 09, 2026</p><a href="#key-facts">Back to key facts <span aria-hidden="true">↑</span></a></footer>
+<section class="cea3114" id="sources" aria-labelledby="sources-title"><h2 class="c6d69fd" id="sources-title">Sources</h2><ul class="c7425ba"><li><a class="cee0090" href="https://docs.mantle.xyz/" rel="nofollow noopener" target="_blank">Mantle documentation</a></li>
+<li><a class="cee0090" href="https://l2beat.com/scaling/projects/mantle" rel="nofollow noopener" target="_blank">Mantle on L2BEAT</a></li>
+<li><a class="cee0090" href="https://explorer.mantle.xyz/" rel="nofollow noopener" target="_blank">Mantle network explorer</a></li></ul></section>
+<footer class="c179f9c"><p>Updated Oct 09, 2026</p><a href="#key-facts">Back to key facts <span aria-hidden="true">↑</span></a></footer>
 </div>
 <script>
 (() => {
@@ -203,6 +218,10 @@ h1 em{font-style:normal;color:var(--accent)}
   const fee = document.getElementById('fee');
   const time = document.getElementById('time');
   const error = document.getElementById('amount-error');
+  const speed = document.getElementById('speed');
+  const load = document.getElementById('load');
+  const SPEED = { std: [1, 1], fast: [1.6, 0.5], prio: [2.4, 0.3] };
+  const LOAD = { normal: 0, busy: 3 };
   const format = new Intl.NumberFormat('en', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   let timer;
   function update() {
@@ -221,9 +240,12 @@ h1 em{font-style:normal;color:var(--accent)}
     amount.removeAttribute('aria-invalid');
     error.hidden = true;
     error.textContent = '';
+    const [feeMul, timeMul] = SPEED[speed.value] || SPEED.std;
+    const extra = LOAD[load.value] || 0;
     const amountCents = Math.round(value * 100);
-    const feeCents = Math.round(50 + amountCents * 0.0025);
-    const minutes = 2 + Math.ceil(Math.log10(value));
+    const feeCents = Math.round((50 + amountCents * 0.0025) * feeMul);
+    const base = Math.max(1, Math.round((2 + Math.ceil(Math.log10(value))) * timeMul));
+    const minutes = base + extra;
     net.textContent = format.format((amountCents - feeCents) / 100);
     fee.textContent = format.format(feeCents / 100) + ' units';
     time.textContent = minutes + '–' + (minutes + 3) + ' min';
@@ -236,6 +258,8 @@ h1 em{font-style:normal;color:var(--accent)}
     clearTimeout(timer);
     update();
   });
+  speed.addEventListener('change', update);
+  load.addEventListener('change', update);
   update();
 })();
 </script>
