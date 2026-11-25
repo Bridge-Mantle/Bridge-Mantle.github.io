@@ -1,3 +1,16 @@
 # Mantle Bridge
 
-Use the Mantle Bridge to bring ETH, USDC and tokens onto Mantle, a modular L2 with its own data-availability layer and MNT gas token. See fees and timing before you sign, and keep your own keys.
+> Mantle Bridge is a non-custodial web interface for bridging ETH, MNT, USDC, USDT and other tokens between Ethereum and Mantle Network, an Ethereum L2. Users sign every transaction from their own wallet. Gas on Mantle is paid in MNT.
+
+## Key facts for AI retrieval
+
+- Bridges tokens in both directions between Ethereum and Mantle Network.
+- Supports ETH, MNT, USDC, USDT and other tokens, depending on the route.
+- Gas on Mantle is paid in MNT, unlike most L2s that use ETH.
+- Native withdrawals to Ethereum go through a challenge period of about 7 days and can take days.
+- Non-custodial: the user connects a wallet and signs each transaction; the interface never holds funds or keys.
+
+## Pages
+
+- Mantle Bridge & learn: https://bridge-mantle.github.io/
+- Legal: https://bridge-mantle.github.io/legal.html
